@@ -3,8 +3,8 @@ html,body{
 }
 /*index*/
 .top{
-    width: 100%;    /*1536px*/
-    height: 600px;
+    width: 100%;
+    height: 665px;
 }
 /*about*/
 .mine{
@@ -12,42 +12,62 @@ html,body{
     height: 600px;
     float: left;
 }
-.mytext{
-    width: 50%;
-    height: 100%;
-    min-width: 579.2px;
-    margin-left: 5%;
-    padding-top: 150px;
-    padding-right: 80px;
-    float: left;
-}
 .about{
-    width: 40%;
+    width: 45%;
     height: 100%;
-    min-width: 579.2px;
+    min-width: 580px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 130px;
     padding-right: 130px;
     float: left;
 }
+.about .card-text{
+    height: 100%;
+    padding-bottom: 5px;
+}
 .mycard{
-    height: 540px;
+    height: 580px;
     min-width: 300px;
-    margin-top: 50px;
     background-color: #eeeeee;
 }
-.text{
+.cardimg{
+    padding-top: 40px;
+}
+.mine .detail{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.mytext{
+    width: 100%;
+    height: 60%;
+    min-width: 580px;
+    margin: 0% 5% 0% 5%;
+    padding: 5% 5% 0% 5%;
+    float: left;
+}
+.mytext .text{
+    font-family: Microsoft JhengHei;
     padding: 20px;
     border: 3px double;
     border-radius: 16px;
     color: white;
     margin-right: 50px;
-    min-width: 500px;
 }
-.cardimg{
-    padding-top: 40px;
+.detail .bar{
+    height: 30%;
+    width: 100%;
+    color: white;
+    padding: 0% 10% 0% 10%;
+    min-width: 580px;
+    float: left;
 }
+.content>p{
+    margin-bottom: 0%;
+    margin-top: 5%;
+}
+
 /*activity*/
 .background{
     background-color: #333;
@@ -167,6 +187,9 @@ html,body{
 .timeline-badge.info {
     background-color: #5bc0de !important;
 }
+.timeline-badge.orange {
+    background-color: #ff9100 !important;
+}
 .timeline-title {
     margin-top: 0;
     color: inherit;
@@ -186,29 +209,27 @@ html,body{
     width: 100%; 
     height: 100%;
 }
-.imgcenter{
-    margin-left: 90px;
-}
-/*project*/
 
+/*project*/
 .project{
     width: 100%;
     float: left;
 }
-.projectimg{
+.projectImage{
     width: 60%;
     height: 100%;
-    min-width: 579.2px;
+    padding: 30px;
+    min-width: 483.2px;
     float: left;
 }
-.projecttext{
+.projectText{
     width: 39%;
     height: 100%;
-    min-width: 579.2px;
+    min-width: 483.2px;
     vertical-align: middle;
     float: left;
 }
-.pjtxt{
+.projectText .text{
     margin: 100px;
     color: white;
     text-align: start;
