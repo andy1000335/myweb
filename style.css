@@ -190,6 +190,9 @@ html,body{
 .timeline-badge.orange {
     background-color: #ff9100 !important;
 }
+.timeline-badge.brown {
+    background-color: #8D6E63 !important;
+}
 .timeline-title {
     margin-top: 0;
     color: inherit;
